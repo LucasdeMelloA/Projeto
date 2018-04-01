@@ -899,7 +899,46 @@ input {
     padding: 10px 0px;
     font-size: 13px;
 	}
-		
+	
+	.form-home {
+    height: 56px;
+	padding: 10px 16px;
+	}
+	
+	.form-search-home {
+    width: 82%;
+	}
+	
+	.btn-home {   
+    padding: 16px 23px;    
+    margin: 0px 0px;    
+    width: 47%;
+    margin-bottom: 23px;
+	font-size: 16px;
+	}
+	
+	.subtitle-home {  
+    font-size: 23px !important;
+    line-height: 30px !important;
+	}
+	
+	.space-btn-home {
+    margin-top: 0px;
+	}
+	
+	.masthead {   
+    padding-top: 99%;
+	padding-bottom: 0%;
+	}
+	
+	.credito-imagem {
+    right: 21px;
+    top: 2%;
+	}
+	
+	.link-home {   
+    font-size: 16px;
+	}
 }
 
 @media (max-width: 375px) {
