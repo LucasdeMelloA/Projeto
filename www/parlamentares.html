@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+  <nav class="header-top bg-tranparent">
+      <div class="container-fluid">
+       <div class="row">
+        <div class="col-lg-7 col-md-3">
+		  </div>
+        <div class="col-lg-5 col-md-9 search-header space-header-mobile"> 
+           <div class="right-menu">    
+         <div><form>                           
+                 <div class="form-page-item">
+                 <input type="search" id="search-page" class="form-search-header" placeholder="Nome, Estado ou Partido…">
+                 	 <button type="submit" class="btn-search">
+                  <img class="icon-search-page" src="img/icon-search.svg"> </button>          
+                	</div>          
+            </form>  
+            </div>              
+             <div class="d-none d-sm-block">
+             <div class="btn btn-bg-yellow btn-item" style="margin-right: 10px">Deputados</div>
+        	   <div class="btn btn-item btn-bg-green">Senadores</div>
+				</div> 
+				
+			   <div class="space-filter-header d-sm-none">
+				   <div class="dropdown width-mobile">
+  <button class="btn btn-secondary dropdown-toggle btn-filter-header" type="button" id="filter-estado" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Estado
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Acre</a>
+    <a class="dropdown-item" href="#">Alagoas</a>
+    <a class="dropdown-item" href="#">Amapá</a>
+    <a class="dropdown-item" href="#">Amazonas</a>
+    <a class="dropdown-item" href="#">Bahia</a>
+    <a class="dropdown-item" href="#">Ceará</a>
+    <a class="dropdown-item" href="#">Distrito Federal</a>
+    <a class="dropdown-item" href="#">Espírito Santo</a>
+    <a class="dropdown-item" href="#">Goiás</a>
+    <a class="dropdown-item" href="#">Maranhão</a>
+    <a class="dropdown-item" href="#">Mato Grosso</a>
+    <a class="dropdown-item" href="#">Mato Grosso do Sul</a>
+    <a class="dropdown-item" href="#">Minas Gerais</a>
+    <a class="dropdown-item" href="#">Pará</a>
+    <a class="dropdown-item" href="#">Paraíba</a>
+    <a class="dropdown-item" href="#">Paraná</a>
+    <a class="dropdown-item" href="#">Pernambuco</a>
+    <a class="dropdown-item" href="#">Rio de Janeiro</a>
+    <a class="dropdown-item" href="#">Rio Grande do Norte</a>
+    <a class="dropdown-item" href="#">Rio Grande do Sul</a>
+    <a class="dropdown-item" href="#">Rondônia</a>
+    <a class="dropdown-item" href="#">Roraima</a>
+    <a class="dropdown-item" href="#">Santa Catarina</a>
+    <a class="dropdown-item" href="#">São Paulo</a>
+    <a class="dropdown-item" href="#">Sergipe</a>
+    <a class="dropdown-item" href="#">Tocantins</a>
+  </div>
+</div>
+         
+            <div class="dropdown width-mobile">
+  <button class="btn btn-secondary dropdown-toggle btn-filter-header" type="button" id="filter-partido" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Partido
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#"><img class="img-partido" src="img/logo-partido.png"></a>
+  </div>
+</div>
+			</div>
+				
+				
+			</div>
+		  </div>
+      	</div>
+      </div>
+    </nav>
+    
+    
+      <section class="menu-footer d-block d-sm-none">
+      <div class="container-fluid">
+       <div class="row">       
+        <div class="col-md-12">           
+             
+             <div class="btn btn-bg-yellow btn-item btn-footer">Deputados</div>
+        	   <div class="btn btn-item btn-bg-green btn-footer">Senadores</div>
+        	     <div class="btn btn-item btn-bg-white btn-footer">Todos</div>
+				
+		  </div>
+      	</div>
+      </div>
+    </section>
+
+
+    <!-- Masthead -->
+	  <div class="background-parlamentares"></div>
+      <div class="overlay"></div>
+      <div class="container-fluid">  
+		  <div class="row">
+         <div class="col-md-3 d-none d-sm-block">  
+            <div class="space-filter">
+            <div class="space-title-filter">
+             <img src="img/icon-filter.svg" style="width: 20px"><span class="title-filter">Filtrar</span>
+             </div>
+             
+   <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle btn-form-filter" type="button" id="filter-estado" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Estado
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Acre</a>
+    <a class="dropdown-item" href="#">Alagoas</a>
+    <a class="dropdown-item" href="#">Amapá</a>
+    <a class="dropdown-item" href="#">Amazonas</a>
+    <a class="dropdown-item" href="#">Bahia</a>
+    <a class="dropdown-item" href="#">Ceará</a>
+    <a class="dropdown-item" href="#">Distrito Federal</a>
+    <a class="dropdown-item" href="#">Espírito Santo</a>
+    <a class="dropdown-item" href="#">Goiás</a>
+    <a class="dropdown-item" href="#">Maranhão</a>
+    <a class="dropdown-item" href="#">Mato Grosso</a>
+    <a class="dropdown-item" href="#">Mato Grosso do Sul</a>
+    <a class="dropdown-item" href="#">Minas Gerais</a>
+    <a class="dropdown-item" href="#">Pará</a>
+    <a class="dropdown-item" href="#">Paraíba</a>
+    <a class="dropdown-item" href="#">Paraná</a>
+    <a class="dropdown-item" href="#">Pernambuco</a>
+    <a class="dropdown-item" href="#">Rio de Janeiro</a>
+    <a class="dropdown-item" href="#">Rio Grande do Norte</a>
+    <a class="dropdown-item" href="#">Rio Grande do Sul</a>
+    <a class="dropdown-item" href="#">Rondônia</a>
+    <a class="dropdown-item" href="#">Roraima</a>
+    <a class="dropdown-item" href="#">Santa Catarina</a>
+    <a class="dropdown-item" href="#">São Paulo</a>
+    <a class="dropdown-item" href="#">Sergipe</a>
+    <a class="dropdown-item" href="#">Tocantins</a>
+  </div>
+</div>
+         
+            <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle btn-form-filter" type="button" id="filter-partido" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Partido
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#"><img class="img-partido" src="img/logo-partido.png"></a>
+  </div>
+</div>
+          
+            
+             </div>  
+          </div>
+          
+          <div class="col-md-9 grid-custom">
+          <div class="title-page">          
+          <span class="title-trilha1 white d-none d-sm-block">Todos</span>
+          <span class="trilha-icon white d-none d-sm-block">&#62;</span>
+          <span class="title-trilha2 white">Deputados Federais</span>
+          </div>
+          <div class="row bloco-deputados">          
+           
+            <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil" data-toggle="modal" data-target=".modal1"> 
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil1.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+           	<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil3.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+           	<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil1.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil3.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil1.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil3.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+              <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil1.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil3.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil2.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil1.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+             <!-- ITEM-DEPUTADO -->
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 space-bloco grid-custom-block">
+            <div class="bloco-perfil">
+		    <div class="space-img-perfil"><img class="img-perfil" src="img/perfil3.jpg"></div>
+            <div class="title-perfil">João Fernandes da Silva</div>
+            <div class="cargo-perfil">Deputado Federal</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            </div> 
+            </div> 
+            <!-- ITEM-DEPUTADO -->
+            
+              
+         
+       
+            
+           </div>                             
+        </div>
+        </div>
+         </div>
+         
+          <div class="modal fade modal1" id="" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-green">
+         <div class="modal-header">       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="container">
+       <div class="row">
+        <div class="col-lg-4 col-md-5">
+        	<div class="bloco-perfil-info"> 
+		    <div class="space-img-perfil"><img class="img-perfil img-perfil-small" src="img/perfil2.jpg"></div>
+            <div class="title-perfil-info">João Fernandes da Silva</div>
+            <div class="cargo-perfil cargo-perfil-info black">Deputado Federal</div>
+            <div class="cargo-perfil cargo-perfil-info black">dep.joaodasilva@camara.leg.br</div>
+            
+            <div class="rodape-bloco-perfil">
+            <div class="partido-perfil"><img class="img-partido" src="img/logo-partido.png"></div>
+            <div class="estado-perfil-info"><span class="item-estado-perfil">SP</span></div>
+            </div>
+            <div class="space-btn">
+             <div class="btn btn-bg-yellow btn-item largura-full shadow-bg-clean">Ligar (61) 3215-5556 </div>
+             </div>
+             <div class="space-btn">
+             <div class="btn btn-bg-white btn-item largura-full shadow-bg-clean d-block d-sm-none" data-toggle="modal" data-target=".modal2">Enviar e-mail </div>
+             </div>
+            </div> 
+            
+        </div>
+         <div class="col-lg-7 offset-lg-1 col-md-7 d-none d-sm-block">
+         <div class="title-mensagem">Enviar mensagem</div>
+         <form class="bloco-form">
+  <div class="form-group">
+    <input class="form-control campo-form" type="text" placeholder="Seu nome" id="nameform">
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control campo-form" id="emailform" aria-describedby="emailHelp" placeholder="E-mail">
+  </div>
+  <div class="form-group">
+    <input class="form-control campo-form" type="text" placeholder="Assunto" id="assuntoform">
+  </div> 
+  <div class="form-group">
+    <textarea class="form-control mensagem-form" id="mensageform" placeholder="Diga o que gostaria..."></textarea>
+  </div>  
+  <button type="submit" class="btn btn-bg-yellow btn-item">Enviar</button>
+</form>
+		  </div>
+     </div>
+     </div>
+      </div>
+    </div>
+  </div>
+</div> 
+  
+  
+           <div class="modal fade modal2" id="" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-green">
+         <div class="modal-header">       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&lt;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-form">
+       <div class="container">
+       <div class="row">
+
+         <div class="col-lg-12">
+         <div class="title-mensagem">Enviar mensagem</div>
+         <form class="bloco-form">
+  		<div class="form-group">
+    		<input class="form-control campo-form" type="text" placeholder="Seu nome" id="nameform">
+  		</div>
+  		<div class="form-group">
+    		<input type="email" class="form-control campo-form" id="emailform" aria-describedby="emailHelp" placeholder="E-mail">
+  		</div>
+  		<div class="form-group">
+    		<input class="form-control campo-form" type="text" placeholder="Assunto" id="assuntoform">
+  		</div> 
+  		<div class="form-group">
+    		<textarea class="form-control mensagem-form" id="mensageform" placeholder="Diga o que gostaria..."></textarea>
+  		</div>  
+  		<button type="submit" class="btn btn-bg-yellow btn-item">Enviar</button>
+		</form>
+		  </div>
+     </div>
+     </div>
+      </div>
+    </div>
+  </div>
+</div> 
+   
+   
+   
+   
+    
+    
+
+    <!-- Footer -->
+    <footer class="">      
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+       $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 170) {
+            $(".header-top").addClass("header-fixo");
+        } else {
+            $(".header-top").removeClass("header-fixo");
+        }
+    });
+});
+		
+		       $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 180) {
+            $(".title-page").addClass("title-top-fixo");
+        } else {
+            $(".title-page").removeClass("title-top-fixo");
+        }
+    });
+});
+		
+	</script>
+
+  </body>
+
+</html>
