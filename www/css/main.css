@@ -927,8 +927,10 @@ input {
 	}
 	
 	.masthead {   
-    padding-top: 99%;
-	padding-bottom: 0%;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 3%;
 	}
 	
 	.credito-imagem {
@@ -938,6 +940,10 @@ input {
 	
 	.link-home {   
     font-size: 16px;
+	}
+	
+	.background-mobile {
+	background-size: 385%;
 	}
 }
 
