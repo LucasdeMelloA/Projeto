@@ -26,7 +26,7 @@ img {
 @font-face{
 	font-family: Oswald;
 	font-weight: 100;
-	src: url(../font/Oswald/Oswald-Light.ttf) format('opentype');	;
+	src: url(../font/Oswald/Oswald-ExtraLight.ttf) format('opentype');	;
 }
 
 @font-face{
@@ -58,15 +58,6 @@ img {
 	font-weight: 600;
 	src: url(../font/Oswald/Oswald-Bold.ttf) format('opentype');	;
 }
-
-@font-face{
-	font-family: Oswald;
-	font-weight: 700;
-	src: url(../font/Oswald/Oswald-Bold.ttf) format('opentype');	;
-}
-
-
-
 
 
 .masthead {
@@ -805,6 +796,8 @@ input {
 	
 	.modal-lg {
     max-width: 100%;
+    margin: 0px;
+    overflow: hidden;
 	}
 	
 	.modal-body {
@@ -823,7 +816,9 @@ input {
 	}	
 	
 	.modal-content {
-	height: 98vh;
+	height: 100vh;
+    overflow: hidden;
+	border-radius: 0px
 	}
 	
 	.bloco-form {
@@ -972,8 +967,8 @@ input {
 	}
 	
 	.subtitle-home {  
-    font-size: 23px !important;
-    line-height: 30px !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
 	}
 	
 	.space-btn-home {
@@ -994,6 +989,7 @@ input {
 	
 	.link-home {   
     font-size: 16px;
+	font-weight: 300;
 	}
 	
 	.background-mobile {
@@ -1006,9 +1002,11 @@ input {
 	
 	#search::-webkit-input-placeholder{    
 	font-size: 16px;
+	font-weight: 300;
 }
 	#search::-moz-placeholder {   
 	font-size: 16px;
+	font-weight: 300;
 	}
 	
 	.icon-search-home {
