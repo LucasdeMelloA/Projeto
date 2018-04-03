@@ -1,6 +1,7 @@
 body {
   font-family: 'Oswald', sans-serif;
 	overflow-x: hidden;
+	background: #000;
 }
 
 h1,
@@ -124,12 +125,11 @@ img {
 
 .overlay-home {
   position: fixed;
-  background-color: #212529de;
+  background-color: rgba(33, 37, 41, 0.68);
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.6;
 }
 
 header.masthead h1 {
@@ -280,6 +280,10 @@ textarea:focus, input:focus{
 	color: #fff
 }
 
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
 .white {
 	color: #fff;
 }
@@ -291,7 +295,6 @@ textarea:focus, input:focus{
 .space-btn {
 	margin-bottom: 14px;
 }
-
 
 .space-link {
 	margin-top: 28px;
@@ -572,10 +575,9 @@ input {
 
 .credito-imagem {
     right: 45px;
-    top: 94%;
-    opacity: 0.7;
+    top: 94%;    
     font-size: 13px;
-    color: #fff;
+    color: #c5c5c5;
     position: absolute;
     z-index: 1;
 }
@@ -988,12 +990,12 @@ input {
 	}
 	
 	.link-home {   
-    font-size: 16px;
+    font-size: 15px;
 	font-weight: 300;
 	}
 	
 	.background-mobile {
-	background-size: 385%;
+	background-size: cover;
 	}
 	
 	.space-link {
@@ -1019,6 +1021,10 @@ input {
 	
 	.title-mensagem {   
     margin-bottom: 9px;
+	}
+	
+	.overlay-home {   
+    background-color: rgba(33, 37, 41, 0.31);
 	}
 }
 
@@ -1057,6 +1063,11 @@ input {
 	
 	.dropdown-menu.show {
     left: -12px !important;
+	}
+	
+	.padding-mobile {
+	padding-right: 5px;
+    padding-left: 5px;
 	}
 	
 	
