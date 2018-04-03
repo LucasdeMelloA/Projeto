@@ -598,7 +598,16 @@
     });
 });
 		
-	</script>
+  </script>
+  
+  <script>
+  document.addEventListener("backbutton", function (e) {
+  intel.xdk.device.addVirtualPage(); 
+  e.preventDefault();
+  console.log(e);
+  // window.history.back();
+  alert("pego aqui");
+}, false );</script>
 
   </body>
 
