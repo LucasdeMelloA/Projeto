@@ -20,9 +20,23 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script>
+              $(document).ready(function () {
+                  // preloader
+                  $(window).load(function () {
+                      $('.preloader').delay(400).fadeOut(500);
+                  })
+              })
+          </script>
+
   </head>
 
   <body>
+
+      <div class="preloader"><span class="preloader-gif"></span></div>    
+
   
   <nav class="header-top bg-tranparent">
       <div class="container-fluid">
