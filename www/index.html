@@ -13,8 +13,6 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">    
   </head>
@@ -85,6 +83,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/css3caching/jquery.css3caching.js"></script>
+    <script>
+      jQuery(function($) { 
+        $.preload.images(document) 
+    });
+    </script>
     
 
   </body>
