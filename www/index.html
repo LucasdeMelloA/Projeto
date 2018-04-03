@@ -14,10 +14,21 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">    
+    <link href="css/main.css" rel="stylesheet">  
+    
+    <script>
+        $(document).ready(function () {
+            // preloader
+            $(window).load(function () {
+                $('.preloader').delay(400).fadeOut(500);
+            })
+        })
+    </script>
   </head>
 
   <body>
+
+      <div class="preloader"><span class="preloader-gif"></span></div>    
 
     <div id="background-carousel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
